@@ -1,10 +1,10 @@
-N=int(input())
-s=N
+n=int(input())
+s=n
 while s>=9:
     s=0
-    while N:
-        r=N%10
+    while n:
+        r=n%10
         s+=r
-        N=N//10
-    N=s
-print(N)
+        n=n//10
+    n=s
+print(n)
