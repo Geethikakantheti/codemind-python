@@ -1,10 +1,10 @@
 def reverse(num):
-    sum=0
+    rev=0
     while num>0:
-        a=num%10
-        sum=sum*10+a
+        r=num%10
+        rev=rev*10+r
         num=num//10
-    return sum
+    return rev
 a=int(input())
 if a==reverse(a):
     print("True")
